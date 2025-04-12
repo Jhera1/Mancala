@@ -9,12 +9,12 @@ body {
   }
   
   .board {
+    background-color: darkolivegreen;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px auto;
     width: 800px;
-    background-color: #deb887;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);

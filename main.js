@@ -17,7 +17,7 @@ let currentPlayer = 'player1';
 function updateBoard() {
   pits.forEach(pit => {
     const player = pit.dataset.player;
-    const index = pit.dataset.index;
+    const index = parseInt(pit.dataset.index);
     pit.textContent = board[player][index];
   });
 
